@@ -1,0 +1,38 @@
+{
+  "editor.formatOnSave": true, // Formata o código automaticamente ao salvar.
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.enable": true, // Habilita o ESLint.
+  "prettier.enable": true, // Habilita o Prettier.
+  "prettier.singleQuote": true, // Usa aspas simples.
+  "prettier.semi": true, // Adiciona ponto e vírgula ao final das instruções.
+  "eslint.alwaysShowStatus": true, // Mostra o status do ESLint na barra inferior.
+  "eslint.validate": [ // Define os tipos de arquivos que o ESLint deve validar.
+    "javascript",
+    "javascriptreact",
+    "html",
+    "css"
+  ],
+  "[javascript]": { // Configurações específicas para arquivos JavaScript.
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": { // Configurações específicas para arquivos HTML.
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": { // Configurações específicas para arquivos CSS.
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "off", // Desativa o salvamento automático.
+  "editor.tabSize": 2, // Define o tamanho do tab como 2 espaços.
+  "editor.detectIndentation": false, // Desativa a detecção automática de indentação.
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, // Adiciona espaço antes de parênteses em funções.
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false, // Mantém chaves na mesma linha para blocos de controle.
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false, // Mantém chaves na mesma linha para funções.
+  "html.format.wrapLineLength": 120, // Define o comprimento máximo da linha em HTML.
+  "html.format.wrapAttributes": "auto", // Quebra automaticamente atributos longos em HTML.
+  "css.format.newlineBetweenRules": true, // Adiciona uma nova linha entre regras CSS.
+  "css.format.spaceAroundSelectorSeparator": true,
+  "liveServer.settings.port": 5501, // Adiciona espaço ao redor de separadores de seletores CSS.
+  "explorer.compactFolders": false, // Desativa a compactação de pastas no explorador.
+}

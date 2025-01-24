@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint: Valida e corrige problemas no código JavaScript.
+    "esbenp.prettier-vscode", // Prettier: Formata automaticamente o código.
+    "ritwickdey.LiveServer", // Live Server: Inicia um servidor local com recarregamento automático.
+    "formulahendry.auto-rename-tag", // Auto Rename Tag: Renomeia automaticamente tags HTML.
+    "CoenraadS.bracket-pair-colorizer", // Bracket Pair Colorizer: Colore pares de colchetes.
+    "pranaygp.vscode-css-peek", // CSS Peek: Permite visualizar definições CSS.
+    "ecmel.vscode-html-css", // HTML CSS Support: Adiciona suporte ao CSS em arquivos HTML.
+    "xabikos.JavaScriptSnippets", // JavaScript (ES6) code snippets: Snippets para JavaScript ES6.
+    "christian-kohler.path-intellisense", // Path Intellisense: Autocompleta caminhos de arquivos.
+    "eamodio.gitlens" // GitLens: Integra funcionalidades do Git no VS Code.
+  ]
+}
