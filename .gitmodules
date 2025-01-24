@@ -1,0 +1,6 @@
+[submodule "solucao"]
+    path = src/solucao
+    url = https://github.com/andreluizmb82/challenge-amigo-secreto_pt-main-solucao
+[submodule "solucaoPersonalizada"]
+    path = src/solucaoPersonalizada 
+    url = https://github.com/andreluizmb82/challenge-amigo-secreto_pt-main-solucao-personalizada
